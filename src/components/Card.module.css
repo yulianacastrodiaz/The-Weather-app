@@ -1,0 +1,150 @@
+
+.clima {
+  border-radius: 2em;
+  padding: 1em;
+  width: 25%;
+  display: inline-flex;
+  flex-direction: column;
+  height: 380px;
+  margin: 22.5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  margin-top: 45px;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 800px) {
+  .clima {
+    width: 45%;
+  }
+}
+
+.clima:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.max, .min{
+  display: inline-flex;
+  flex-direction: column;
+  padding: 3px;
+  margin-top: 20px;
+}
+
+/* .min{
+  margin-left: 50px;
+}
+
+.max{
+  margin-right: 50px;
+} */
+
+.divboton {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.gps{
+  width: 8%;
+  margin-bottom: 8px;
+}
+
+.divhead{
+  display: flex;
+  justify-content: center;
+}
+
+.text{
+  display: flex;
+  margin-right: 25px;
+}
+
+h4{
+  text-align: center;
+  align-self: center;
+  padding-left: 5px;
+}
+
+#boton {
+  font-size: 15px;
+  border: 0px;
+  text-align: center;
+  color: white;
+  position: relative;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 3px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: color 0.2s ease, background-color 0.2s ease, transform 0.3s ease;
+  width: 40px;
+  height: 40px;
+}
+
+#boton:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border: solid 2px;
+  transform: scale(0.8);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+#boton:hover:after {
+  transform: scale(1);
+  box-shadow: 10px 0 20px rgba(0, 0, 0, 0.19), 6px 0 6px rgba(0, 0, 0, 0.23);
+}
+
+#boton:nth-of-type(1) {
+  background-color: #e46d6d;
+}
+
+#boton:nth-of-type(1):hover {
+  color:  #e46d6d;
+}
+
+#boton:nth-of-type(1):after {
+  border-color:  #e46d6d;
+}
+
+#boton:hover {
+  background-color: transparent;
+  transform: rotate(90deg);
+  cursor: pointer;
+  box-shadow: none;
+}
+
+#img{
+  width: 40%;
+  display: flex;
+  align-self: center;
+  margin-top: 15px;
+}
+
+#nameCity{
+  text-decoration: none;
+}
+
+#numberMax, #numberMin{
+  font-size: 30px;
+}
+
+.vertical-line{
+  width: 2px; /* Line width */
+  background-color:   rgba(0,0,0,.65); /* Line color */
+  height: 50%; /* Override in-line if you want specific height. */
+  float: left; /* Causes the line to float to left of content. 
+    You can instead use position:absolute or display:inline-block
+    if this fits better with your design */
+  display: inline-flex;  
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 28px;
+}
+
+.temperatura{
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
