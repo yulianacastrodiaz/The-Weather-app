@@ -1,7 +1,9 @@
-## Henry Weather
+# Welcome to The Wetaher app!
 
 
-### Ejercitación
+In this app you can find the `forecast`
+
+![homepage](./img/home.png)
 
 En este `homework` vamos a utilizar `react-router` para poder tener más de una ruta en nuestra **SPA**.
 
