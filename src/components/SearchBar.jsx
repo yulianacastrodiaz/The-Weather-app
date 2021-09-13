@@ -13,8 +13,8 @@ export default function SearchBar({ onSearch }) {
       <input 
         className="form-control mr-sm-2"
         type="text" 
-        placeholder="Ciudad..."
-        aria-label="Ciudad..."
+        placeholder="City..."
+        aria-label="City..."
         value={city}
         onChange={e => setCity(e.target.value)}
       />
