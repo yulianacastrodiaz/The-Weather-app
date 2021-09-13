@@ -4,7 +4,7 @@ import s from'./App.css';
 import Nav from '../components/Nav.jsx';
 import Cards from '../components/Cards.jsx';
 import About from '../components/About.jsx'
-import Ciudad from '../components/Ciudad.jsx';
+import City from '../components/City.jsx';
 
 const apiKey = '4ae2636d8dfbdc3044bede63951a019b';
 
@@ -63,7 +63,7 @@ function App() {
       />
       <Route
         exact path='/ciudad/:ciudadId'
-        render={({match}) => <Ciudad
+        render={({match}) => <City
         city={onFilter(match.params.ciudadId)}
         />}
       />

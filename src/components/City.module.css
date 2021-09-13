@@ -1,0 +1,34 @@
+.city{
+  display: flex;
+  justify-content: center;
+}
+
+.header{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+#name{
+  color: #007bff;
+  text-align: center;
+}
+
+#img{
+  width: 30%;
+  margin-top: 15px; 
+  align-self: center;
+}
+
+.info{
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.tr{
+  display: flex;
+  justify-content: space-between;
+  width: 224px;
+}
+
