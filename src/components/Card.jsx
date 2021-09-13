@@ -27,7 +27,7 @@ export default function Card ({min, max, name, img, onClose, id}) {
   return (
     <div className={`${styles.clima}`} >
       <div className={`${styles.divboton}`}>
-        <button onClick={() => onClose(id)} id={`${styles.boton}`} >X</button>
+        <button onClick={() => onClose(id)} id={`${styles.boton}`} className="material-icons">close</button>
       </div>
       <div className={styles.divhead}>
         <img src="/img/pin (2).png" alt="Imagen de ubicacion" className={styles.gps}></img>
