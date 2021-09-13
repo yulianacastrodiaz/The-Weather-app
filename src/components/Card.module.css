@@ -131,12 +131,10 @@ h4{
 }
 
 .vertical-line{
-  width: 2px; /* Line width */
-  background-color:   rgba(0,0,0,.65); /* Line color */
-  height: 50%; /* Override in-line if you want specific height. */
-  float: left; /* Causes the line to float to left of content. 
-    You can instead use position:absolute or display:inline-block
-    if this fits better with your design */
+  width: 2px; 
+  background-color:   rgba(0,0,0,.65);
+  height: 50%; 
+  float: left; 
   display: inline-flex;  
   flex-direction: column;
   justify-content: center;
